@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <div class="book" id="book">
+
+            <!-- PAGINA IZQUIERDA -->
+            <section class="page left" id="leftPage">
+                <div class="page-content" id="leftContent">
+                    <p class="small-title">Un pequeño detalle para ti...</p>
+                    <h2>¡Feliz cumpleaños!</h2>
+                    <p>Espero que tengas un día bonito.</p>
+                </div>
+                <span class="page-number" id="leftNumber">01</span>
+            </section>
+
+            <!-- PAGINA DERECHA -->
+            <section class="page right" id="rightPage">
+                <div class="page-content" id="rightContent">
+
+                    <img
+                        src="img/focaPortada.jpg"
+                        alt="Foca de cumpleaños"
+                        class="main-image"
+                        id="mainImage"
+                    >
+
+                    <h1 id="mainTitle">Happy Birthday!</h1>
+                    <p id="mainText">Una pequeña sorpresa para ti.</p>
+
+                </div>
+                <span class="page-number" id="rightNumber">02</span>
+            </section>
+
+        </div>
+
+        <!-- NAVEGACION -->
+        <nav class="navigation">
+            <button id="prevBtn" disabled>← Anterior</button>
+            <span id="counter">1 / 3</span>
+            <button id="nextBtn">Siguiente →</button>
+        </nav>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
